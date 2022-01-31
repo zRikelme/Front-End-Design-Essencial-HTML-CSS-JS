@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(73, 73, 73, 0.433);
+}
+
+header{
+    width: 100%;
+    background-color: blue;
+    display: table;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 8px black
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+main{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.subtitulo-01{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#a000c0;
+    font-family: arial black sans-serif;
+}
+
+.subtitulo-02{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#a000c0;
+    font-family: arial black sans-serif;
+    color: purple;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.subtitulo-03{
+    text-align: center;
+    color: slateblue;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+
+.buttom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    display: block;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.buttom:hover{
+    color: gray;
+    background-color: rgb(0, 89, 0);
+}
+
+.container-01{
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 1px -1px 11px 0px black;
+    border-radius: 10px;
+    width: 300px;
+    height: 100%;
+}
+
+.container-02{
+    display: table;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 1px -1px 11px 0px black;
+    border-radius: 10px;
+    height: 100%;
+
+}
+
+.container-03{
+    display: table;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 1px -1px 11px 0px black;
+    border-radius: 10px;
+}
+
+p{
+    font-family: arial;
+    text-indent: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: larger;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
