@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="item-azul" >Azul 1</h1>
+    <h1 class="item-azul" >Azul 2</h1>
+    <h1 class="item-azul" >Azul 3</h1>
+    <br>
+    <br>
+    <h1 class="item-vermelho" >Vermelho 1</h1>
+    <h1 class="item-vermelho" >Vermelho 2</h1>
+    <h1 class="item-vermelho" >Vermelho 3</h1>
+
+    <div class="my-buttons">
+        <button onclick="ficarAzul()">azuis</button>
+        <button onclick="ficarVermelho()">Vermelhos </button>
+    </div>
+
+    <script>
+        var azul = document.querySelectorAll('.item-azul')
+        var vermelho = document.querySelectorAll('.item-vermelho')
+
+        function ficarAzul() {
+           var i = 0
+           for (i = 0; azul.length > i; i++) {
+               azul[i].style.color = "blue";
+           }
+        }
+
+        function ficarVermelho() {
+           var i = 0
+           for (i = 0; vermelho.length > i; i++) {
+               vermelho[i].style.color = "red";
+           }
+        }
+
+
+
+    </script>
+</body>
+</html>
